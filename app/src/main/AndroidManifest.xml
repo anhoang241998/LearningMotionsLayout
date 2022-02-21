@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MotionsLayoutLearning">
         <activity
-            android:name=".MainActivity"
+            android:name=".screen.ItemMotionsLayout"
+            android:exported="false" />
+        <activity
+            android:name=".screen.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
